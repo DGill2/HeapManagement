@@ -9,8 +9,10 @@ LIBRARIES=      lib/libmalloc-ff.so \
 TESTS=		tests/test1 \
                 tests/test2 \
                 tests/test3 \
-                tests/test4 
-
+                tests/test4 \
+		tests/bfwf  \
+		tests/bench1\
+		tests/bench2
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
