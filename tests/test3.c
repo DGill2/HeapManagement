@@ -12,7 +12,9 @@ int main()
   free( ptr1 );
   free( ptr2 );
 
-  char * ptr3 = ( char * ) malloc ( 2048 );
+  char * ptr3 = ( char * ) malloc ( 2400 );
+
+  printf("%p == %p\n", ptr1, ptr3);
 
   free( ptr3 );
 

@@ -12,7 +12,8 @@ TESTS=		tests/test1 \
                 tests/test4 \
 		tests/bfwf  \
 		tests/bench1\
-		tests/bench2
+		tests/bench2 \
+		tests/coal
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
