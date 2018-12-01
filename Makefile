@@ -13,9 +13,13 @@ TESTS=		tests/test1 \
 		tests/bfwf  \
 		tests/bench1\
 		tests/bench2 \
+<<<<<<< HEAD
 		tests/coal \
 		tests/ffnf
 
+=======
+		tests/coal
+>>>>>>> 4df2f6724f5877c8c97974619b9a32b9ecea386f
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
